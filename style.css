@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", serif;
+}
+
+body {
+    background-color: #F5F4F0;
+}
+
+.page {
+    box-sizing: border-box;
+    width: 1280px;
+    padding: 80px;
+    margin: 48px auto;
+}
+
+#title-page {
+    gap: 8px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#description-image img {
+    width: 100%;
+    height: 660px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: center;
+    color: #333333;
+    margin-top: 24px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+}
+
+#content-list img {
+    width: 100%;
+    height: 375px;
+    border-radius: 28px;
+    object-fit: cover;
+    margin-top: 64px;
+}
+
+.title-list p #description {
+    font-size: 16px;
+    color: #333333 ;
+    padding-top: 8px;
+    text-align: justify;
+}
+
+li::marker {
+    font-size: 28px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 28px;
+}
+
+ul {
+    margin-top: 16px;
+    list-style-type: disc;
+}
+
+ul li::marker {
+    font-size: 16px;
+    color: #333333;
+    
+}
+
+.history {
+    color: #0C51A7;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.couples {
+    color: #591B98;
+    font-weight: bold;
+    font-size: 16px;
+}
+.family {
+    color: #E5245E;
+    font-weight: bold;
+    font-size: 16px;
+}
+.budget {
+    color: #E95E10;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#description {
+    font-size: 16px;
+    color: #333333 ;
+    padding-top: 8px;
+    text-align: justify;
+}
+
+footer {
+    color: #333333 ;
+    text-align: center;
+    padding-bottom: 48px;
+}
+footer img {
+    vertical-align: middle;
+}
